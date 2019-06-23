@@ -96,7 +96,7 @@ html, body {
   padding: 3rem;
 }
 
-footer{
+footer.important{
   background-color: #3f3f3f;
   color: #d5d5d5;
   padding-top: 2rem;
@@ -109,7 +109,7 @@ hr.light {
   margin-bottom: 1rem;
 }
 
-footer a {
+footer.important a {
   color: #d5d5d5;
 }
 footer.blockquote-footer {
