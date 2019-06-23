@@ -45,6 +45,10 @@ html, body {
   border: 1px solid #563d7c;
 }
 
+.btn-primary:hover{
+  background-color: #563d7c;
+}
+
 .jumbotron {
   padding: 1rem;
   border-radius: 0;
@@ -92,7 +96,7 @@ html, body {
   padding: 3rem;
 }
 
-footer {
+footer{
   background-color: #3f3f3f;
   color: #d5d5d5;
   padding-top: 2rem;
@@ -107,6 +111,9 @@ hr.light {
 
 footer a {
   color: #d5d5d5;
+}
+footer.blockquote-footer {
+  background-color: white;
 }
 hr.light-100 {
   width: 100%;
