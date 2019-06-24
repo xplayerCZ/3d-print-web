@@ -17,7 +17,7 @@
 </head>
 
 <body>
-	<nav id="global-nav" class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+	<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
 		<div class="container-fluid">
 			<a class="navbar-brand" href="#"><i class="fas fa-cubes"></i> <span>3D Tisk Opava</span></a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1">
@@ -123,17 +123,6 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
 		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
 		crossorigin="anonymous"></script>
-	<script>
-		$(document).ready(function(){
-  		var scrollTop = 0;
- 		 $(window).scroll(function(){
-    		scrollTop = $(window).scrollTop();
-     		$('.counter').html(scrollTop);
-    		if (scrollTop >= 100) {
-      		$('#global-nav').addClass('scrolled-nav');
-    		} else if (scrollTop < 100) {
-     		 $('#global-nav').removeClass('scrolled-nav');
-    		} }); }); </script>
 </body>
 
 </html>
